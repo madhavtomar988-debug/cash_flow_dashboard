@@ -9,7 +9,7 @@ A simple expense tracking dashboard built using HTML, CSS and Vanilla JavaScript
 - Remaining balance calculation
 - LocalStorage support
 - Dark mode toggle
-- Expense pie chart using Chart.js
+- Expense chart using Chart.js
 
 ## Live Demo
-PASTE_YOUR_NETLIFY_URL_HERE
+https://cerulean-moonbeam-c978fd.netlify.app/
