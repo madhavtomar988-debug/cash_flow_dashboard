@@ -1,0 +1,190 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    background:#f4f4f4;
+    padding:10px;
+}
+
+h1{
+    text-align:center;
+    margin-bottom:40px;
+}
+h1 {
+    margin: 5px 0;
+}
+
+#darkModeBtn {
+    margin-bottom: 5px;
+}
+
+.container{
+    max-width:500px;
+    margin:auto;
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+}
+
+input{
+    padding:12px;
+    font-size:16px;
+}
+
+button{
+    padding:12px;
+    font-size:16px;
+    cursor:pointer;
+    background:#007bff;
+    color:white;
+    border:none;
+    border-radius:5px;
+}
+
+#remainingBalance{
+    text-align:center;
+    margin-top:10px;
+}
+
+#expenseList{
+    list-style:none;
+    margin-top:10px;
+}
+
+#expenseList li{
+    background:white;
+    padding:10px;
+    margin-top:8px;
+    border-radius:5px;
+
+#expenseList li {
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 10px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+}
+.deleteBtn{
+    margin-left:10px;
+    background:red;
+    color:white;
+    border:none;
+    padding:5px 10px;
+    border-radius:5px;
+    cursor:pointer;
+}
+#expenseChart{
+    max-width:400px;
+    margin:20px auto;
+    display:block;
+    background:white;
+    padding:15px;
+    border-radius:10px;
+}
+#warningMessage{
+    color:red;
+    font-weight:bold;
+    text-align:center;
+    margin:5px 0;
+}
+.container{
+    background:white;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 2px 10px rgba(0,0,0,0.1);
+}
+h2{
+    text-align:center;
+    margin:5px 0;
+}
+#clearAllBtn {
+    background: red;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+.dark-mode {
+    background-color: #121212;
+    color: white;
+}
+
+.dark-mode .container {
+    background-color: #1e1e1e;
+}
+
+.dark-mode input {
+    background-color: #333;
+    color: white;
+    border: 1px solid #555;
+}
+
+.dark-mode button {
+    opacity: 0.9;
+}
+
+#darkModeBtn {
+    margin-bottom: 15px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+.dark-mode li {
+    background-color: #2a2a2a;
+    color: white;
+    border: 1px solid #444;
+}
+#darkModeBtn {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: 22px;
+    cursor: pointer;
+}
+.dark-mode #expenseList li {
+    background-color: #2a2a2a !important;
+    color: white !important;
+    border: 1px solid #555;
+}
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+#darkModeBtn {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+#expenseList li {
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 10px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+#expenseList li:hover {
+    transform: translateY(-2px);
+    transition: 0.3s;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
