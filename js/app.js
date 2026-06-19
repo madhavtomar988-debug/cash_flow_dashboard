@@ -95,7 +95,10 @@ remainingBalance.textContent =
 
     const balance = salary - totalExpenses;
 
-if (balance < 0) {
+if (salary <= 0) {
+    warningMessage.textContent = "";
+}
+else if (balance < 0) {
     warningMessage.textContent =
         "❌ Expenses exceeded salary!";
 }
@@ -103,7 +106,7 @@ else if (balance === 0) {
     warningMessage.textContent =
         "⚠️ Salary fully utilized!";
 }
-else if (salary > 0 && balance < salary * 0.1) {
+else if (balance < salary * 0.1) {
     warningMessage.textContent =
         "⚠️ Warning: Balance is below 10% of salary!";
 }
